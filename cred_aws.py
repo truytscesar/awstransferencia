@@ -27,6 +27,6 @@ def create_presigned_url(bucket_name, object_name, expiration=3600):
 # COLOCAR O NOME DO BUCKET
 bucket_name = 'tranfdedados'
 # COLOCAR O NOME DO ARQUIVO
-object_name = 'fotos'
+object_name = 'fotos.jpeg'
 presigned_url = create_presigned_url(bucket_name, object_name, 3600)
 print(presigned_url)
