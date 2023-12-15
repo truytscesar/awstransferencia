@@ -1,7 +1,7 @@
 function uploadFile() {
     var file = document.getElementById('fileToUpload').files[0];
-    var presignedUrl = 'https://tranfdedados.s3.amazonaws.com/fotos?AWSAccessKeyId=AKIAYIKCTZ2IPFMDFY4Q&Signature=ZVhWMbLWONWRmnbfkrVMnCpf8xs%3D&Expires=1702663259'; // Substitua pela sua URL pré-assinada
-
+    var presignedUrl = 'https://tranfdedados.s3.amazonaws.com/fotos?AWSAccessKeyId=AKIAYIKCTZ2IPFMDFY4Q&Signature=oLDe%2BHOGb1XWFk4ZR5LNGSSEknE%3D&Expires=1702672555'
+    
     // Verifica se um arquivo foi selecionado
     if (!file) {
         alert('Por favor, selecione um arquivo para fazer upload.');
