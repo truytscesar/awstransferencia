@@ -1,7 +1,6 @@
 function uploadFile() {
     var file = document.getElementById('fileToUpload').files[0];
-    var presignedUrl = 'https://videos-aus-ouvidos.s3.amazonaws.com/fotos.jpeg?AWSAccessKeyId=AKIAYIKCTZ2IPFMDFY4Q&Signature=witS598BcQuPmubHB8yTKs%2FMQZY%3D&Expires=1702680421'
-       // Verifica se um arquivo foi selecionado
+    var presignedUrl = 'https://videos-aus-ouvidos.s3.amazonaws.com/fotos.jpeg?AWSAccessKeyId=AKIAYIKCTZ2IPFMDFY4Q&Signature=%2FvdZu3u5FyUJsAtMGXNeb2EdYSg%3D&Expires=1702680812'      // Verifica se um arquivo foi selecionado
     if (!file) {
         alert('Por favor, selecione um arquivo para fazer upload.');
         return;

@@ -9,7 +9,7 @@ boto3.setup_default_session(
 
 from botocore.exceptions import NoCredentialsError
 
-def create_presigned_url(bucket_name, object_name, expiration=3600):
+def create_presigned_url(bucket_name, object_name, expiration=604800):
     """Generate a pre-signed URL to upload a file."""
     # Create a S3 client
     s3_client = boto3.client('s3')
